@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Art of You — An Interactive Birthday Story</title>
+  <meta name="description" content="Some feelings are art. Some people are the reason. An interactive birthday story in six chapters, made for someone worth celebrating.">
+  <meta name="theme-color" content="#FFF8F1">
+  <link rel="canonical" href="https://atikulislamx.github.io/The-Art-of-You/">
+  <meta property="og:site_name" content="The Art of You">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Art of You">
+  <meta property="og:description" content="Some feelings are art. Some people are the reason. An interactive birthday story in six chapters.">
+  <meta property="og:url" content="https://atikulislamx.github.io/The-Art-of-You/">
+  <meta property="og:image" content="https://atikulislamx.github.io/The-Art-of-You/assets/images/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="The Art of You, with a wax heart and dried rose petals on warm ivory paper.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Art of You">
+  <meta name="twitter:description" content="An interactive birthday story, made for someone worth celebrating.">
+  <meta name="twitter:image" content="https://atikulislamx.github.io/The-Art-of-You/assets/images/social-preview.png">
+  <meta name="twitter:image:alt" content="The Art of You, with a wax heart and dried rose petals on warm ivory paper.">
+  <link rel="icon" href="./favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="./favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="preload" href="./assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/site.css">
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#story">Skip to the story</a>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="0" height="0">
+    <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c.7 8.6 3.4 11.3 12 12-8.6.7-11.3 3.4-12 12-.7-8.6-3.4-11.3-12-12C8.6 11.3 11.3 8.6 12 0Z"/></symbol>
+    <symbol id="icon-sound-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5l4.5 4V5Zm5 4 5 6m0-6-5 6"/></symbol>
+    <symbol id="icon-sound-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5l4.5 4V5Zm4.2 4.2a4 4 0 0 1 0 5.6M18 6.5a7.8 7.8 0 0 1 0 11"/></symbol>
+    <symbol id="icon-replay" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a8 8 0 1 1 1 7m-1-7V4m0 6h6"/></symbol>
+    <symbol id="icon-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3m-4 4 4-4 4 4M5 12v8h14v-8"/></symbol>
+    <symbol id="icon-hand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12V5a1.5 1.5 0 0 1 3 0v5l5 .7a2.7 2.7 0 0 1 2.3 3l-.5 3.2A4.8 4.8 0 0 1 14 21h-1.4a4 4 0 0 1-3.1-1.5L5 14a1.6 1.6 0 0 1 2.4-2.1L9 13m7-9 2-2m.5 5H21M5 5 3 4"/></symbol>
+    <symbol id="icon-flower" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"><path d="M24 20c-12-3-8-15 0-10 8-5 12 7 0 10Z"/><path d="M23 21c-5-11-16-5-13 2 1 7 11 7 13-2Zm2 0c5-11 16-5 13 2-1 7-11 7-13-2Zm-1 2c-7 7-4 12 0 16 4-4 7-9 0-16Z"/><circle cx="24" cy="22" r="2.1"/><path d="M24 4v4m0 31v5M5 23h4m30 0h4"/></symbol>
+  </svg>
+  <div class="site" id="keepsake" data-theme="paper">
+    <header class="masthead shell">
+      <a class="wordmark" href="./" data-home aria-label="The Art of You, back to the beginning">
+        <img class="brand-mark mark-paper" src="./assets/images/logo.svg" width="40" height="40" alt="">
+        <img class="brand-mark mark-velvet" src="./assets/images/logo-light.svg" width="40" height="40" alt="">
+        <span>The Art of You</span>
+      </a>
+      <p class="masthead-note">A birthday story in six chapters</p>
+      <button class="sound-toggle" type="button" aria-pressed="false" data-sound hidden>
+        <svg class="icon" aria-hidden="true"><use href="#icon-sound-off"></use></svg>
+        <span>Sound</span>
+      </button>
+    </header>
+
+    <main class="site-main shell" id="story" tabindex="-1">
+      <section class="scene scene-opening is-active" data-scene="heart" aria-labelledby="heart-title">
+        <div class="opening-layout">
+          <div class="opening-copy">
+            <p class="chapter-kicker"><span>Chapter I</span><i></i>The Little Something</p>
+            <h1 class="opening-title" id="heart-title" tabindex="-1"><span class="opening-line">a little</span> <span class="opening-line">something,</span> <em>for you.</em></h1>
+            <p class="opening-note">Some feelings are art.<br>Some people are the reason.</p>
+          </div>
+          <figure class="scene-plate heart-plate" data-bow-stage aria-labelledby="heart-figure">
+            <img class="heart-paper" src="./assets/images/keepsake-paper.webp" alt="" width="1021" height="752" fetchpriority="high">
+            <div class="plate-light" aria-hidden="true"></div>
+            <div class="heart-halo" aria-hidden="true"></div>
+            <div class="heart-marking" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <img class="wax-heart" src="./assets/images/wax-heart.webp" alt="" width="659" height="627" fetchpriority="high" draggable="false">
+            <canvas class="art-canvas" data-bow-canvas aria-hidden="true"></canvas>
+            <svg class="bow-drawing" data-bow-svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="bow-gold" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#724221"/><stop offset=".25" stop-color="#E3BF80"/><stop offset=".49" stop-color="#8F532B"/><stop offset=".74" stop-color="#F7D69D"/><stop offset="1" stop-color="#8E5938"/>
+                </linearGradient>
+                <linearGradient id="arrow-gold"><stop offset="0" stop-color="#A45153"/><stop offset=".25" stop-color="#956036"/><stop offset=".75" stop-color="#F9D99A"/><stop offset="1" stop-color="#88502A"/></linearGradient>
+              </defs>
+              <g data-bow-rig fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path data-bow-aim stroke="#8D5E3F" stroke-width="1" stroke-dasharray="1 7"/>
+                <path data-bow-string stroke="#76503B" stroke-width="1.1"/>
+                <path data-bow-body stroke="#774C32"/>
+                <path data-bow-gold stroke="url(#bow-gold)"/>
+                <path data-bow-glint stroke="#FFE3A9" stroke-opacity=".68"/>
+                <path data-bow-wrap stroke="#794648"/>
+                <path data-bow-binding stroke="#F4CA88" stroke-width=".9"/>
+                <path data-bow-ends stroke="#F5D9A7" stroke-width="2.4"/>
+              </g>
+              <g data-arrow-rig stroke-linecap="round" stroke-linejoin="round">
+                <path data-arrow-shaft fill="none" stroke="#784527" stroke-width="2.6"/>
+                <path data-arrow-inlay fill="none" stroke="url(#arrow-gold)" stroke-width="1.45"/>
+                <path data-arrow-feather fill="#AB5D65" stroke="#7A414A" stroke-width=".5"/>
+                <path data-arrow-tip fill="#EEE0B8" stroke="#885334" stroke-width=".9"/>
+              </g>
+            </svg>
+            <span class="plate-mat" aria-hidden="true"></span>
+            <figcaption class="figure-label" id="heart-figure"><span>Fig. 01</span><i></i>The Keepsake<span class="sr-only"> — a wax heart floats above rose petals on handmade paper.</span></figcaption>
+            <svg class="plate-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-spark"></use></svg>
+            <button class="bow-grip" type="button" aria-label="Release the arrow" aria-describedby="bow-help" data-bow-grip hidden><span></span></button>
+            <span class="sr-only" id="bow-help">With a mouse or touch, pull the bowstring back away from the heart and let go. You can also press this button or choose Begin the story.</span>
+            <div class="pull-label" aria-hidden="true"><svg class="icon"><use href="#icon-hand"></use></svg><span data-pull-label>Pull &amp; release</span></div>
+          </figure>
+          <div class="opening-actions">
+            <button class="button button-primary" type="button" data-launch hidden><svg class="icon button-spark" aria-hidden="true"><use href="#icon-spark"></use></svg><span>Begin the story</span><svg class="icon button-arrow" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+            <noscript><p class="noscript-note">This illustrated keepsake uses JavaScript to turn its pages. You’re still wished a very happy birthday.</p></noscript>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-wish" data-scene="wish" aria-labelledby="wish-title" hidden>
+        <div class="wish-plate scene-plate" data-wish-plate>
+          <canvas class="art-canvas" data-wish-canvas aria-hidden="true"></canvas>
+          <span class="plate-mat" aria-hidden="true"></span>
+          <svg class="wish-ornament" aria-hidden="true"><use href="#icon-spark"></use></svg>
+          <div class="wish-copy">
+            <p class="chapter-kicker"><span>Chapter II</span><i></i>The Wish</p>
+            <p class="script wish-script">make a wish...</p>
+            <h2 class="birthday-title" data-birthday id="wish-title" tabindex="-1">Happy Birthday</h2>
+            <span class="wish-rule" aria-hidden="true"></span>
+            <p class="wish-note" data-wish-subtitle>to someone worth celebrating</p>
+            <time class="birthday-date" data-date hidden></time>
+            <button class="button button-light" type="button" data-next="bloom">Follow the bloom<svg class="icon button-arrow" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-bloom" data-scene="bloom" aria-labelledby="bloom-title" hidden>
+        <div class="split-layout">
+          <div class="scene-copy bloom-copy">
+            <p class="chapter-kicker"><span>Chapter III</span><i></i>A Heart That Blooms</p>
+            <p class="script bloom-script">and... make it count</p>
+            <h2 class="display-title" data-birthday id="bloom-title" tabindex="-1">Happy Birthday</h2>
+            <p class="scene-deck bloom-note">here’s to a year that blooms</p>
+            <button class="button button-primary" type="button" data-next="letter">Read the letter<svg class="icon button-arrow" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+          </div>
+          <figure class="scene-plate garden-plate" data-tree-stage aria-labelledby="bloom-figure">
+            <div class="garden-orbit" aria-hidden="true"></div>
+            <canvas class="art-canvas" data-tree-canvas aria-hidden="true"></canvas>
+            <span class="plate-mat" aria-hidden="true"></span>
+            <figcaption class="figure-label" id="bloom-figure"><span>Fig. 02</span><i></i>A growing wish<span class="sr-only"> — a rose-colored tree grows into the shape of a heart.</span></figcaption>
+            <svg class="plate-star" aria-hidden="true"><use href="#icon-spark"></use></svg>
+          </figure>
+        </div>
+      </section>
+
+      <section class="scene scene-letter" data-scene="letter" aria-labelledby="letter-title" hidden>
+        <div class="letter-layout">
+          <div class="scene-copy letter-copy">
+            <p class="chapter-kicker"><span>Chapter IV</span><i></i>The Letter</p>
+            <h2 class="display-title" id="letter-title" tabindex="-1">A letter,<br><em>just for you.</em></h2>
+            <p class="scene-deck">A few things worth putting on paper.</p>
+          </div>
+          <div class="letter-stage">
+            <article class="stationery" aria-label="Your birthday letter">
+              <div class="stationery-head"><span>Personal correspondence</span><img src="./assets/images/logo.svg" width="48" height="48" alt="" loading="lazy"></div>
+              <p class="letter-greeting" data-greeting>Dear you,</p>
+              <div class="letter-paragraphs" data-letter></div>
+              <p class="letter-signoff" data-signoff>With warm wishes,</p>
+              <p class="script letter-signature" data-signature>Someone cheering you on</p>
+            </article>
+          </div>
+          <div class="letter-action">
+            <button class="button button-primary" type="button" data-next="secret">One more little thing<svg class="icon button-arrow" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-secret" data-scene="secret" aria-labelledby="secret-title" hidden>
+        <div class="secret-plate scene-plate" data-secret-stage>
+          <canvas class="art-canvas" data-secret-canvas aria-hidden="true"></canvas>
+          <span class="plate-mat" aria-hidden="true"></span>
+          <div class="secret-copy">
+            <p class="chapter-kicker"><span>Chapter V</span><i></i>The Secret</p>
+            <h2 class="display-title" id="secret-title" tabindex="-1">there’s one more<br><em>little thing...</em></h2>
+            <div class="seal-stage" data-seal-stage>
+              <button class="wax-seal" type="button" aria-expanded="false" aria-controls="secret-message" data-secret-trigger><svg aria-hidden="true"><use href="#icon-flower"></use></svg><span class="sr-only">Break the seal to read the hidden wish</span></button>
+              <p class="seal-hint" data-seal-hint>Break the seal</p>
+            </div>
+            <div class="secret-message" id="secret-message" data-secret-message hidden>
+              <svg class="secret-spark" aria-hidden="true"><use href="#icon-spark"></use></svg>
+              <p data-secret-text tabindex="-1"></p>
+            </div>
+            <button class="button button-primary" type="button" data-next="finale" hidden>Turn the last page<svg class="icon button-arrow" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-finale" data-scene="finale" aria-labelledby="finale-title" hidden>
+        <div class="split-layout">
+          <div class="scene-copy finale-copy">
+            <p class="chapter-kicker"><span>Chapter VI</span><i></i>The Finale</p>
+            <h2 class="display-title finale-title" id="finale-title" tabindex="-1"><span data-finale-line>Today is yours.</span><br><em data-finale-accent>Make it beautiful.</em></h2>
+            <p class="finale-birthday"><span data-finale-birthday>Happy Birthday.</span><img src="./assets/images/logo.svg" width="29" height="29" alt=""></p>
+            <div class="finale-actions">
+              <button class="button button-primary" type="button" data-replay><svg class="icon" aria-hidden="true"><use href="#icon-replay"></use></svg>Replay the story</button>
+              <button class="button button-quiet" type="button" data-share hidden><svg class="icon" aria-hidden="true"><use href="#icon-share"></use></svg>Share</button>
+            </div>
+            <p class="share-status" data-share-status role="status"></p>
+            <label class="share-field" data-share-field hidden>Or copy this link<input data-share-link type="url" readonly></label>
+          </div>
+          <figure class="scene-plate garden-plate finale-plate" data-tree-stage aria-labelledby="finale-figure">
+            <div class="garden-orbit" aria-hidden="true"></div>
+            <canvas class="art-canvas" data-tree-canvas aria-hidden="true"></canvas>
+            <span class="plate-mat" aria-hidden="true"></span>
+            <figcaption class="figure-label" id="finale-figure"><span>Fig. 03</span><i></i>In full bloom<span class="sr-only"> — the heart-shaped tree is in full flower.</span></figcaption>
+            <svg class="plate-star" aria-hidden="true"><use href="#icon-spark"></use></svg>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="chapter-footer shell">
+      <nav aria-label="Story chapters">
+        <ol class="chapter-list">
+          <li><button type="button" data-chapter="heart" aria-current="step" disabled><span class="chapter-number" aria-hidden="true">I</span><span class="chapter-text"><span class="chapter-prefix">The </span>Heart</span></button></li>
+          <li><button type="button" data-chapter="wish" disabled><span class="chapter-number" aria-hidden="true">II</span><span class="chapter-text"><span class="chapter-prefix">The </span>Wish</span></button></li>
+          <li><button type="button" data-chapter="bloom" disabled><span class="chapter-number" aria-hidden="true">III</span><span class="chapter-text"><span class="chapter-prefix">The </span>Bloom</span></button></li>
+          <li><button type="button" data-chapter="letter" disabled><span class="chapter-number" aria-hidden="true">IV</span><span class="chapter-text"><span class="chapter-prefix">The </span>Letter</span></button></li>
+          <li><button type="button" data-chapter="secret" disabled><span class="chapter-number" aria-hidden="true">V</span><span class="chapter-text"><span class="chapter-prefix">The </span>Secret</span></button></li>
+          <li><button type="button" data-chapter="finale" disabled><span class="chapter-number" aria-hidden="true">VI</span><span class="chapter-text"><span class="chapter-prefix">The </span>Finale</span></button></li>
+        </ol>
+      </nav>
+    </footer>
+    <p class="sr-only" data-story-status role="status"></p>
+  </div>
+</body>
+</html>
